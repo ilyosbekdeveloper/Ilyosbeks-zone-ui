@@ -1,0 +1,276 @@
+/* roots */
+:root{
+  // main variables2
+  --main-color2: #fff;
+  --main-a-color2: #eee;
+
+  /* header section's roots */
+  --header-bg: #ffffffcc;
+  --header-logo: #414141;
+  --header-a: #414141;
+  --header-a-hover: #616060;
+  --settings-li: #414141;
+  --settings-btn: #292929ed;
+  --settings-btn-color: #eee;
+  --settings-btn-hover: #3b3b3be9;
+
+  // header inputsection
+  --header-input-section-bg: #ffffffb8; 
+  --main-span-color: #919eab;
+  --search-input-color: #222;
+
+  // saidbar
+  --saidbar-bg: #fff;
+  --saidbar-title: #222;
+  --mode-h3: #494d51;
+  --par-t: #000;
+  --saidbar-main-color: #494d51;
+
+  // explore section
+  
+  // featured section
+  --featured-color: #637381;
+  --featured-shadow: #e7e7e7;
+  --featured-btn-bg: #9c9c9c00;
+  --featured-btn-color: #222;
+  --featured-btn-hover-border: #2b2b2bf8;
+  --featured-btn-hover-outline: #22222298;
+
+  // top companies section
+  --top-bg: #f9fafb;
+  --top-shadow: #99999958;
+
+  // global connetcion section
+  --global-btn-bg: #212b36;
+  --global-btn-color: #fff;
+
+  // support
+  --support-input-bg: #eef0f2;
+  --support-input-color: #222;
+
+
+
+  // =======================================
+  // main main colors
+  --main-h1: #000;
+  --main-span-color: #637381;
+  --main-p-color: #637381;
+  --main-bg: #fff;
+  // main-btn-bg
+  --main-btn-bg: #212b36;
+  --main-btn-color: #fff;
+  --main-btn-hover: #212b36d2;
+}
+
+// dark mode
+.App.dark{
+    // main variables2
+    --main-color2: #fff;
+    --main-a-color2: #eee;
+  
+    /* header section's roots */
+    --header-bg: #161c24cc;
+    --header-logo: #efefef;
+    --header-a: #efefef;
+    --header-a-hover: #d0d0d0;
+    --settings-li: #efefef;
+    --settings-btn: #edededed;
+    --settings-btn-color: #0a0a0a;
+    --settings-btn-hover: #3b3b3be9;
+  
+    // header inputsection
+    --header-input-section-bg: #161c24cc; 
+    --search-input-color: #222;
+    
+    // saidbar
+    --saidbar-bg: #161c24;
+    --saidbar-title: #f9f9f9;
+    --mode-h3: #fa541c;
+    --par-t: #fff;
+
+    // featured section
+    --featured-color: #637381;
+    --featured-shadow: #14141445;
+    --featured-btn-bg: #ffffff00;
+    --featured-btn-color: #ffffff;
+    --featured-btn-hover-border: #b2b2b2f8;
+    --featured-btn-hover-outline: #ffffffe5;
+    
+    // top companies section
+    --top-bg: #252c35;
+    --top-shadow: #0e0e0e94;
+
+    // global connetcion section
+    --global-btn-bg: #e9e9e9;
+    --global-btn-color: #1a1818;
+
+
+      // support
+    --support-input-bg: #2222221d;
+    --support-input-color: #ffffff;
+    
+
+    // ========================================
+    // main main colors
+    --main-h1: #ffffff;
+    --main-span-color: #96a0aa;
+    --main-p-color: #959fa9;
+    --main-bg: #161c24;
+
+    // main-btn-bg
+    --main-btn-bg: #fff;
+    --main-btn-color: #212b36;
+    --main-btn-hover: #ffffffc1;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.jcsb{
+  justify-content: space-between !important;
+}
+.w-100{
+  width: 100%;
+}
+
+
+
+// global styles
+.px-2{
+  padding: 0 2rem;
+}
+.h-100{
+  height: 100% !important;
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+*{
+  transition: .2s ease;
+}
+// dot
+.dot{
+  position: relative;
+  &::before{
+      position: absolute;
+      left: -10px;
+      top: 4px;
+      content: '';
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #fa541c;
+      opacity: 0;
+  }
+  &:hover::before{
+      opacity: 1!important;
+  }
+}
+.l-88{
+  line-height: 88px;
+}
+li{
+  list-style: none;
+}
+
+.top-0{
+  top: 0 !important;
+}
+// main-title
+.main-title{
+  color: #919eab;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+// main color in site
+.main-p{
+  color: var(--main-p-color);
+}
+
+//text align center
+.tac{
+  text-align: center;
+}
+
+// justify-content-center{
+.jcc{
+  justify-content: center;
+}
+
+// white img
+.whiteImg{
+  filter: invert(100%);
+}
+
+// hover bg
+.hover-bg-1{
+  &:hover{
+    background: #33446836 !important;
+  }
+}
+
+// header 1
+.h1{
+  color: var(--main-h1);
+  font-size: 2.75rem;
+}
+.main-h1{
+  color: var(--main-h1);
+}
+
+.font-1{
+  font-size: 1rem;
+}
+
+// logo
+.logo{
+  color: var(--header-logo);
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  margin-right: 1rem;
+  &::after{
+      margin-left: 4px;
+      position: absolute;
+      content: '';
+      width: 10px;
+      height: 10px;
+      background-color: #fa541c;
+      border-radius: 50%;
+      bottom: 50%;
+      transform: translateY(100%);
+  }
+}
+
+// global button
+.global-btn{
+  background: var(--global-btn-bg) !important;
+  color: var(--global-btn-color) !important;
+  padding: 13px 30px !important;
+  border-radius: 8px !important;
+  text-transform: capitalize !important;
+  font-weight: bold !important;
+  &:hover{
+      opacity: .9 !important;
+  }
+  div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+.pb-3{
+  padding-bottom: 15px;
+}
+.pt-2{
+  padding-top: 10px;
+}

@@ -1,0 +1,119 @@
+.blog{
+    background: var(--main-bg);
+    width: 100%;
+    overflow-x: hidden;
+    padding: 80px 24px;
+
+    .blog-description{
+        font-size: 1rem;
+        width: 440px;
+    }
+    .blog-2{
+        button{
+            text-transform: capitalize;
+            font-weight: bold;
+            color: var(--main-h1);
+            padding: 10px 20px;
+            span{
+                padding-right: 10px;
+            }
+            div{
+                svg{
+                    font-weight: light !important;
+                }
+            }
+        }
+    }
+    .blog-title{
+        margin-bottom: 80px;
+    }
+    .blog-container{
+        height: 708px;
+        width: 100%;
+        .blog-left{
+            width: 48%;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 100%;
+            margin-right: 20px;
+            background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 75%), 
+            url(../../imgs/career_1.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            .blog-left-box{
+                margin: 20px 40px;
+                position: absolute;
+                bottom: 20px;
+
+                .blog-left-link{
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 2.2rem;
+                    font-weight: bold;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .aa{
+                    padding-top: 20px !important;
+                }
+
+                .blog-left-description{
+                    color: #857c7c;
+                    font-size: 1rem;
+                    padding-right: 20px;
+                }
+            }
+        }
+
+        .blog-right{
+            width: 48%;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            .blog-right-img-section{
+                width: 248px;
+                height: 248px;
+                border-radius: 16px;
+            }
+            .blog-right-comment{
+                padding: 7px 0;
+            }
+            .blog-right-title{
+                width: 248px;
+                padding: 10px 0;
+                a{
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    line-height: 25px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .blog-right-box-2,.blog-right-box-3{
+                img{
+                    width: 248px !important;
+                    height: 186px !important;
+                    object-fit: cover !important;
+                }
+            }
+            .blog-right-box-4{
+                margin-top: -50px;
+            }
+            .blog-right-box-3{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+.read{
+    color: #b5b5b5;
+    font-size: 14px;
+    display: block;
+    width: 200px;
+}
+.a-start{
+    align-items: flex-start !important;
+}

@@ -1,0 +1,263 @@
+.saidbar-container{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+
+    // right-saidbar
+    &.right-saidbar{
+        right: 0;
+        top: 0;
+        background: var(--saidbar-bg);
+        
+        .saidbar-title{
+            display: flex;
+            align-items: center;
+            
+            padding: 15px 0;
+            h2{
+                color: var(--saidbar-title);
+                font-size: 18px;
+            }
+
+            .saidbar-title-icons{
+                .saidbar-title-icon{
+                    width: 20px !important;
+                    height: 30px;
+                    color: var(--main-span-color);
+                    font-size: 14px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    user-select: none;
+                    padding: 0 !important;
+                    margin: 0 !important;
+                    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                }
+            }
+        }
+
+        .settings2{
+            .mode{
+                &:nth-child(1){
+                    h3{
+                        color: var(--mode-h3) !important;
+                    }
+                    svg{
+                        color: var(--mode-h3);
+                    }
+                }
+                padding: 24px 24px;
+                cursor: pointer;
+                h3{
+                    color: var(--saidbar-main-color);
+                    font-size: 15px;
+                    font-weight: lighter;
+                }
+                svg{
+                    color: var(--saidbar-main-color);
+                    font-size: 24px;
+                }
+
+                &:hover{
+                    background: #767c8556;
+                }
+            }
+        }
+
+        .par-t{
+            color: var(--par-t);
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .parsets{
+            margin-top: 2rem;
+
+            .boxs{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .box{
+                    &:nth-child(1){
+                        margin-left: 0;
+                        border: 1px solid rgb(250, 84, 28);
+                        box-shadow: rgba(250, 84, 28, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:nth-child(2){
+                        margin-right: 0;
+                        border: 1px solid rgb(28, 220, 250);
+                        box-shadow: rgba(28, 217, 250, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:nth-child(3){
+                        margin-left: 0;
+                        border: 1px solid rgb(250, 28, 228);
+                        box-shadow: rgba(250, 28, 243, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:nth-child(4){
+                        margin-right: 0;
+                        border: 1px solid rgb(61, 28, 250);
+                        box-shadow: rgba(28, 139, 250, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:nth-child(5){
+                        margin-left: 0;
+                        border: 1px solid rgb(231, 250, 28);
+                        box-shadow: rgba(250, 235, 28, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                        border: 1px solid rgb(28, 250, 61);
+                        box-shadow: rgba(28, 250, 150, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    margin: 10px;
+                    width: 102px;
+                    height: 104px;
+                    border: 2px solid #64afc3;
+                    border-radius: 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    // left saidbar
+    &.left-saidbar{
+        left: 0;
+        top: 0;
+        background: var(--saidbar-bg);
+        
+        .saidbar-title{
+            display: flex;
+            align-items: center;
+            
+            padding: 15px 0;
+            h2{
+                color: var(--saidbar-title);
+                font-size: 18px;
+            }
+
+            .saidbar-title-icons{
+                .saidbar-title-icon{
+                    width: 20px !important;
+                    height: 30px;
+                    color: var(--main-span-color);
+                    font-size: 14px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    user-select: none;
+
+                    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                }
+            }
+        }
+
+        .settings2{
+            .mode{
+                &:nth-child(1){
+                    h3{
+                        color: var(--mode-h3) !important;
+                    }
+                    svg{
+                        color: var(--mode-h3);
+                    }
+                }
+                padding: 24px 24px;
+                cursor: pointer;
+                h3{
+                    color: var(--saidbar-main-color);
+                    font-size: 15px;
+                    font-weight: lighter;
+                }
+                svg{
+                    color: var(--saidbar-main-color);
+                    font-size: 24px;
+                }
+
+                &:hover{
+                    background: #767c8556;
+                }
+            }
+        }
+
+        .par-t{
+            color: var(--par-t);
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .parsets{
+            margin-top: 2rem;
+
+            .boxs{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .box{
+                    &:nth-child(1){
+                        margin-left: 0;
+                        border: 1px solid rgb(250, 84, 28);
+                        box-shadow: rgba(250, 84, 28, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:nth-child(2){
+                        margin-right: 0;
+                        border: 1px solid rgb(28, 220, 250);
+                        box-shadow: rgba(28, 217, 250, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:nth-child(3){
+                        margin-left: 0;
+                        border: 1px solid rgb(250, 28, 228);
+                        box-shadow: rgba(250, 28, 243, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:nth-child(4){
+                        margin-right: 0;
+                        border: 1px solid rgb(61, 28, 250);
+                        box-shadow: rgba(28, 139, 250, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:nth-child(5){
+                        margin-left: 0;
+                        border: 1px solid rgb(231, 250, 28);
+                        box-shadow: rgba(250, 235, 28, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                        border: 1px solid rgb(28, 250, 61);
+                        box-shadow: rgba(28, 250, 150, 0.32) 0px 4px 12px 0px inset;
+                    }
+                    margin: 10px;
+                    width: 102px;
+                    height: 104px;
+                    border: 2px solid #64afc3;
+                    border-radius: 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.overlay{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: #161c24cc;
+    opacity: 1;
+}
+.toggle-saidbar{
+    .saidbar-container{
+        &.right-saidbar{
+            right: -300px;
+        }
+        &.left-saidbar{
+            left: -300px;
+        }
+    }
+    .overlay{
+        z-index: -2;
+        opacity: 0;
+    }
+}

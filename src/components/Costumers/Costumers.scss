@@ -1,0 +1,74 @@
+.costumers{
+    background-color: var(--top-bg);
+    width: 100%;
+    padding: 120px 0;
+
+    .costumers-title{
+        font-size: 2.75rem;
+        color: var(--main-h1);
+        margin-bottom: 40px;
+    }
+
+    .costumers-conatainer{
+        width: 564px;
+        margin: auto;
+        .costumers-container-stars{
+           margin: 0 0 2rem 0;
+            .star{
+                color: #faaf00;
+            }
+        }
+
+        .costumer-comment-description{
+            color: var(--main-h1);
+            font-size: 20px;
+            margin: 24px 0;
+        }
+        .comment-from{
+            color: var(--main-h1);
+            font-size: 1.125rem;
+        }
+        .comment-job{
+            font-size: 0.875rem;
+            color: #637381 !important;
+        }
+
+        .costumer-comment-icons{
+            margin-top: 80px;
+            width: 100%;
+
+            
+        }
+    }
+}
+.costumer-comment{
+    position: relative;
+    .swiper-button-prev{
+        border: 1px solid var(--main-h1);
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        margin-top: 80px;
+        margin-right: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all .2s;
+        &:hover{
+            background: #00000043;
+        }
+    }
+    .swiper-button-next{
+        border: 1px solid var(--main-h1);
+        transition: all .2s;
+        &:hover{
+            background: #00000043;
+        }
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+        display: inline-block;
+        margin-top: 80px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}

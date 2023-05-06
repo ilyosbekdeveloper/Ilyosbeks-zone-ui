@@ -1,0 +1,25 @@
+.clients{
+    background: var(--main-bg);
+    padding: 120px 80px;
+    user-select: none;
+
+    .clients-p{
+        width: 530px;
+        margin: 24px auto;
+        font-size: 1rem;
+    }
+
+    .clients-container{
+        width: 100%;
+        overflow-x: hidden;
+
+        .swiper-slide{
+            border: 1px solid #919eab3d;
+            border-radius: 16px;
+            padding: 24px 0;
+        }
+        .swiper-pagination{
+            display: none;
+        }
+    }
+}

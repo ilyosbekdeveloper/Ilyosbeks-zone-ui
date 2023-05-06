@@ -1,0 +1,110 @@
+footer{
+  padding: 80px 24px;
+  background: var(--main-bg); 
+  
+}
+.footer-description{
+  margin-top: 24px;
+  width: 360px;
+  font-size: 0.8rem;
+}
+
+.footer-a{
+    font-size: 0.8rem;
+    font-family: '__Public_Sans_a5724b','__Public_Sans_Fallback_a5724b',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #FA541C;
+    text-decoration: none;
+    color: var(--main-span-color);
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.footer-a1{
+    margin-top: 8px;
+    line-height: 1.5714285714285714;
+    padding: 1.5px 0;
+}
+.footer-main-title{
+    color: var(--main-h1);
+    font-size: 1.125rem;    
+    font-weight: 400;
+}
+.comunity{
+    margin-top: 40px;
+}
+.email{
+    margin-top: 16px;
+    position: relative;
+
+    input{
+        border: none;
+        outline: none;
+        width: 240px;
+        height: 50px;
+        background: var(--support-input-bg);
+        padding: 5px 10px;
+        margin-right: 7px;
+        border-radius: 8px;
+        color: var(--support-input-color);
+    }
+}
+.footer-icons{
+    ul{
+        display: flex;
+        align-items: center;
+        li{
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            &:hover{
+                background: #fa531c35;
+            }
+            svg{
+                font-size: 20px;
+                color: #FA541C;
+            }
+        }
+    }
+}
+
+.f-title{
+    font-size: 1rem;
+    padding-bottom: 0px;
+}
+
+.footer-a2{
+    font-size: 0.88rem;
+    font-family: '__Public_Sans_a5724b','__Public_Sans_Fallback_a5724b',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #FA541C;
+    text-decoration: none;
+    color: var(--main-span-color);
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.footer-a12{
+    margin-top: 8px;
+    line-height: 1.5714285714285714;
+}
+
+.footer-bottom{
+    background: var(--main-bg);
+
+    .left-footer{
+        padding: 25px 0;
+    }
+}
+.link1{
+    text-decoration: none !important;
+    padding: 0 13px;
+    &:hover{
+        text-decoration: underline !important;
+    }
+}
